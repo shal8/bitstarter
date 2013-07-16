@@ -14,7 +14,7 @@ var read_html = function(filename){
 }
 
 app.get('/', function(request, response) {
-  response.send(read_html("index.htm"));
+  response.send(read_html("index.html"));
 });
 
 var port = process.env.PORT || 5000;
